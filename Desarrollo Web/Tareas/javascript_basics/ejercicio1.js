@@ -1,9 +1,12 @@
-function encontrar(cadena) {
-    const frecuencia = {};
+// Leon Blanga Hasbani | A01784008
 
-    // Recorrer la cadena y contar la frecuencia de cada carácter
+function encontrar(cadena) {
+    
+    let frecuencia = {};
+
+    // for que cuenta la frecuencia de cada carácter
     for (let i = 0; i < cadena.length; i++) {
-        const caracter = cadena[i];
+        let caracter = cadena[i];
         if (frecuencia[caracter]) {
             frecuencia[caracter]++;
         } else {
@@ -11,29 +14,29 @@ function encontrar(cadena) {
         }
     }
 
-    // Recorrer la cadena nuevamente y encontrar el primer carácter no repetido
+    // for que encuentra el primer carácter no repetido
     for (let i = 0; i < cadena.length; i++) {
-        const caracter = cadena[i];
+        let caracter = cadena[i];
         if (frecuencia[caracter] === 1) {
             return caracter;
         }
     }
 
-    // Si no se encuentra ningún carácter no repetido
+    // return null si no hay carácter no repetido
     return null;
 }
 
-// Prueba 1 de la función
-let string = 'abacddbecx';
+// Caso 1
+let string = 'abacddbec';
 let noRepetido = encontrar(string);
-console.log('1) ' + noRepetido);
+console.log('1- ' + noRepetido);
 
-// Prueba 2 de la función
+// Caso 2
 string = 'abcbc';
 noRepetido = encontrar(string);
-console.log('2) ' + noRepetido);
+console.log('2- ' + noRepetido);
 
-// Prueba 3 de la función
+// Caso 3
 string = 'aabbcc';
 noRepetido = encontrar(string);
-console.log('3) ' + noRepetido);
+console.log('3- ' + noRepetido);
