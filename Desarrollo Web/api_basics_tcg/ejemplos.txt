@@ -1,0 +1,56 @@
+{
+    "cards": [{
+  "id": 1,
+  "category": "Network",
+  "name": "Firewall",
+  "description": "Network defense card",
+  "power": 6
+},
+
+{
+  "id": 2,
+  "category": "Radio Frequence",
+  "name": "Radio Jammer",
+  "description": "Radio frequence attack card",
+  "power": 3
+},
+
+{
+  "id": 3,
+  "category": "Radio Frequence",
+  "name": "Digital Signal",
+  "description": "Radio frequence defense card",
+  "power": 6
+},
+
+{
+  "id": 4,
+  "category": "Network",
+  "name": "Handshake Decrypt",
+  "description": "Network attack card",
+  "power": 1
+},
+
+{
+  "id": 5,
+  "category": "Network",
+  "name": "WPA3 Encryption",
+  "description": "Network defense card",
+  "power": 3
+},
+
+{
+  "id": 6,
+  "category": "Hardware",
+  "name": "Gold Bat",
+  "description": "Hardware attack card",
+  "power": 6
+},
+
+{
+  "id": 7,
+  "category": "Hardware",
+  "name": "Dead Latches",
+  "description": "Hardware defense card",
+  "power": 4
+}]}
