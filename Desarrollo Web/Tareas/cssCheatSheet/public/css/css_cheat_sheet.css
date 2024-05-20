@@ -1,0 +1,121 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+}
+
+html {
+    background-color: #ff54e5;
+}
+
+body {
+    background-color: #ffbff1;
+}
+
+h1, h2 {
+    color: rgb(128, 0, 255);
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.property {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.example {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+#border .example {
+    border: 2px solid purple;
+}
+
+#border-specific .example {
+    border-left: 5px solid red;
+    border-right: 5px solid green;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid yellow;
+}
+
+
+#border-radius, #border-radius .example {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#background-image .example {
+    background-image: url('https://fotografias.antena3.com/clipping/cmsimages02/2022/12/19/57017F2A-8327-404D-8997-5C37A44CDC03/messi-replica-iconica-imagen-maradona-copa-mundo_104.jpg?crop=2731,2731,x504,y0&width=1200&height=1200&optimize=low&format=webply');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    color: white;
+}
+
+#color .example {
+    color: orange;
+}
+
+#font .example {
+    font: 15px Arial, sans-serif;
+}
+
+#font-family .example {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#font-style-weight .example {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#width-height .example {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+
+#list-style .example ul {
+    list-style-type: square;
+}
+
+#margin .example {
+    margin: 25px;
+    background-color: #ddd;
+}
+
+#padding .example {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+#overflow .example {
+    overflow:scroll;
+    height: 50px;
+}
+
+#display .example {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#position .example {
+    position: relative;
+    left: 300px;
+    top: 20px;
+    background-color: #ddd;
+}
+
+#filter .example {
+    filter: blur(3px);
+}
+
